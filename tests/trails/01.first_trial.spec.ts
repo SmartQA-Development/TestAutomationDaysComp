@@ -17,5 +17,6 @@ test('Trial - 01 - Verify user logged in email', async ({browser }) => {
 
     await page.locator('a#identity-link').click();
 
-    await expect(await page.locator('section input[name="email"]').getAttribute("value")).toEqual("adminuser@tester.com");
+    const locator = page.locator('section input[name="email"]');
+    await expect(locator).toHaveValue("adminuser@tester.com");
 });
