@@ -1,0 +1,14 @@
+{
+  "name": "testautomationdayscomp",
+  "version": "1.0.0",
+  "description": "Repo for the TAD 24 competition",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.42.1",
+    "@types/node": "^20.11.27"
+  }
+}
