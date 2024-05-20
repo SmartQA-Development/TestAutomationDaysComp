@@ -1,6 +1,6 @@
 import { test as setup } from '@playwright/test';
 
-const userFile = 'playwright/.auth/generaluser.json';
+const userFile = 'playwright/mobile_store/.auth/generaluser.json';
 
 setup('authenticate general user', async ({ request }) => {
     // Send user authentication request.
@@ -16,7 +16,7 @@ setup('authenticate general user', async ({ request }) => {
     await request.storageState({ path: userFile });
 });
 
-const normalUserFile = 'playwright/.auth/normaluser.json';
+const normalUserFile = 'playwright/mobile_store/.auth/normaluser.json';
 
 setup('authenticate normal user', async ({ request }) => {
     // Send user authentication request.
@@ -32,7 +32,7 @@ setup('authenticate normal user', async ({ request }) => {
     await request.storageState({ path: normalUserFile });
 });
 
-const adminFile = 'playwright/.auth/adminuser.json';
+const adminFile = 'playwright/mobile_store/.auth/adminuser.json';
 
 setup('authenticate admin', async ({ request }) => {
     // Send user authentication request.
@@ -48,7 +48,7 @@ setup('authenticate admin', async ({ request }) => {
     await request.storageState({ path: adminFile });
 });
 
-const superUserFile = 'playwright/.auth/superuser.json';
+const superUserFile = 'playwright/mobile_store/.auth/superuser.json';
 
 setup('authenticate super user', async ({ request }) => {
     // Send user authentication request.
@@ -64,7 +64,7 @@ setup('authenticate super user', async ({ request }) => {
     await request.storageState({ path: superUserFile });
 });
 
-const storeUserFile = 'playwright/.auth/storeuser.json';
+const storeUserFile = 'playwright/mobile_store/.auth/storeuser.json';
 
 setup('authenticate store user', async ({ request }) => {
     // Send user authentication request.
