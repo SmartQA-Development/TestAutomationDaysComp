@@ -12,7 +12,7 @@ import { defineConfig, devices } from '@playwright/test';
 export default defineConfig({
   testDir: './tests',
   /* Run tests in files in parallel */
-  fullyParallel: true,
+  fullyParallel: false,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
   forbidOnly: !!process.env.CI,
   /* Retry on CI only */
@@ -32,19 +32,15 @@ export default defineConfig({
 
   /* Configure projects for major browsers */
   projects: [
-    // // Use the setup for the Auth Assignment
-    // // Setup project with Auth UNCOMMENT BELOW
-    // { name: 'setup', testMatch: /.*\.setup\.ts/ },
+    { name: 'setup', testMatch: /.*\.setup\.ts/ },
 
     {
       name: 'chromium',
       use: {
         ...devices['Desktop Chrome'],
-        // // Use prepared auth state for the Auth assignment. UNCOMMENT BELOW
-        // storageState: 'playwright/.auth/user.json',
+        storageState: 'playwright/.auth/superuser.json',
       },
-      // // Use the setup for the Auth Assignment UNCOMMENT BELOW
-      // dependencies: ['setup'],
+      dependencies: ['setup'],
     },
 
     /* Test against mobile viewports. */

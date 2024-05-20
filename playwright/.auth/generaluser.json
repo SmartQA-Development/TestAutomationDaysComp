@@ -1,0 +1,25 @@
+{
+  "cookies": [
+    {
+      "name": "PHPSESSID",
+      "value": "uon1sr3kfbb4r58d33bjam4jm8",
+      "domain": "webshop.mobiletestautomation.nl",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "PrestaShop-4142b02b282d14de6321c6aeb777389c",
+      "value": "def5020094ee76aed96c3cb08343fd4ecea1e52c5d8d71093ee19603b80ff49132b86e2ce024f5c87369f0fa5a77a7416be398b1e9bd08cabeec5a906a3543d606a8276d94323bfa07216907f144d310ec7231bd6d59e47881bd0e956adfd9bff4739052cc76b7aeea13d403085f6268b534e4432cd661a7a6c4ea98e67d93d845fd37ce062ac9233326deb279b6d79daec65f49acda82f3bbaea6346c9c8cf95689f30e7746fa28c345673fdefd03f31ecae32ba9b5426fc30223e8cc3c47d30935aea990cfae389592f51327d04900c0bd3dfb6f5719e11d026b10bbf598e477021a44b0ce0e5addba66a7767b43ad8d467a3be59431a2c5f478850d",
+      "domain": ".webshop.mobiletestautomation.nl",
+      "path": "/",
+      "expires": 1717969213.533,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": []
+}

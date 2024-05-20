@@ -1,0 +1,25 @@
+{
+  "cookies": [
+    {
+      "name": "PrestaShop-4142b02b282d14de6321c6aeb777389c",
+      "value": "def50200aae47aac73fa5e657b666e6ac87a007245519e5a5165ae7ee54527fbce12a738f54efb81563571458a555ef83ac3b56fc378d5b187b83cb4d07ba84e842e3c5c0020b9e6d1d25efdc48656d3ee419100c617f36f3a43fafd768662200b834e6e9efb24076e09cdf93326071cfeb6cd9a518463559edc661109db818ab2e766ffd4d3b637a2fb968a1d2d3fa2d98d6511f4bd519c30f9dea0421577cfba1388334f825caad2b033d5197d7c0e0d070d50b9c5f840d7a3ea5ae4d671fcdcf9c435dae91982e223ce6e8cdf00a927a56cd088414283b25ea1d559e27f9ccc2aee8dcf302ab084d4f8178da936257578703268922f7443e9042eabce0d86063be3586f5c0fc089abafa1908cd5653eb59a52bd371b3e1c3f9990a70fbeea15f3f84a7b4b32f63a3a0287bc600ea5c5f939c5a136a527db216581d0865f92ab63880612a45b668ae537b89372c56f5f7ffda02ab955a33f4113bece3414630d75c26ea7bf9c3b3c54053313b2f99d41d036071c78a92017ab0a6bdb2d2b4029e698c4372f485de6d1fa020d2bec75426dd3180821fd297b2927bd51a31dc5d6b30e3133ae984bdd730e0501fdc2c6aff6b5583f9c1f52c703bfa3bd239c9bd83424b3819e9122366117917099a8319dc16cfcea1b2071dc48d25acaa83cac86fcc699e39388df4531027d3acfacdc8cdaae0338119f4b6cef2043be61ef6dea98f5499cb5be5fe4bb7554b2",
+      "domain": ".webshop.mobiletestautomation.nl",
+      "path": "/",
+      "expires": 1717969214.312,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "PHPSESSID",
+      "value": "63upe4ahib861pphfuj0vj1ulv",
+      "domain": "webshop.mobiletestautomation.nl",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": []
+}

@@ -1,10 +1,6 @@
 import { test, expect, request } from '@playwright/test';
 
-test('Trial - 01 - Verify user logged in email', async ({browser }) => {
-    const context = await browser.newContext({ storageState: 'playwright/.auth/user.json' });
-
-    const page = await context.newPage();
-
+test('Trial - 01 - Verify user logged in email', async ({page }) => {
     await page.goto('https://webshop.mobiletestautomation.nl/');
 
     await expect(page).toHaveTitle('SmartQA Test Automation');
@@ -18,5 +14,5 @@ test('Trial - 01 - Verify user logged in email', async ({browser }) => {
     await page.locator('a#identity-link').click();
 
     const locator = page.locator('section input[name="email"]');
-    await expect(locator).toHaveValue("adminuser@tester.com");
+    await expect(locator).toHaveValue("storeuser@tad.nl");
 });

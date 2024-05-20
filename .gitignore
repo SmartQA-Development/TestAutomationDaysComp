@@ -2,7 +2,7 @@
 .idea
 
 # Auth file
-playwright/.auth/*.json
+# playwright/.auth/*.json
 
 # Logs
 logs
