@@ -269,3 +269,5 @@ export const o = {
     "session_key": 9158,
     "meeting_key": 1219
 }
+
+export const mk_dr = checo;
