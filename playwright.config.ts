@@ -30,18 +30,16 @@ export default defineConfig({
     trace: 'on-first-retry',
   },
 
+  /* Run your local dev server before starting the tests */
+  // webServer: {
+  //   command: 'npm run start',
+  //   url: 'http://127.0.0.1:3000',
+  //   reuseExistingServer: !process.env.CI,
+  // },
+
   /* Configure projects for major browsers */
   projects: [
     // { name: 'setup', testMatch: /.*\.setup\.ts/ },
-
-    {
-      name: 'chromium',
-      use: {
-        ...devices['Desktop Chrome'],
-        storageState: 'playwright/mobile_store/.auth/adminuser.json',
-      },
-      // dependencies: ['setup'],
-    },
 
     /* Test against mobile viewports. */
     // {
@@ -62,12 +60,14 @@ export default defineConfig({
     //   name: 'Google Chrome',
     //   use: { ...devices['Desktop Chrome'], channel: 'chrome' },
     // },
-  ],
 
-  /* Run your local dev server before starting the tests */
-  // webServer: {
-  //   command: 'npm run start',
-  //   url: 'http://127.0.0.1:3000',
-  //   reuseExistingServer: !process.env.CI,
-  // },
+    {
+      name: 'chromium',
+      use: {
+        ...devices['Desktop Chrome'],
+        storageState: 'playwright/mobile_store/.auth/adminuser.json',
+      },
+      // dependencies: ['setup'],
+    },
+  ],
 });
